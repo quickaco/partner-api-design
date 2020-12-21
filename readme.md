@@ -14,7 +14,7 @@ We reserve the right to suspend your token should abuse (subject to good faith a
 ## Webhooks
 
 Partners _must_ specify their preferred webhook endpoint as part of commercials.
-This endpoint is where the QuickaPay engine will return updates on submerchant onboarding to.
+This endpoint is where the QuickaPay engine will return updates on the business being onboarding to.
 
 ## APIs
 
