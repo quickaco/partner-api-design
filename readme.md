@@ -18,6 +18,6 @@ This endpoint is where the QuickaPay engine will return updates on submerchant o
 
 ## APIs
 
-* [Creating a submerchant](create-merchant.md)
-* [Recheck submerchant status](check-merchant-status.md)
-* [Verifying submerchant access keys](verify-merchant-keys.md)
+* [Creating a business](create-business.md)
+* [Recheck business status](check-business-status.md)
+* [Verifying business access keys](verify-business-keys.md)

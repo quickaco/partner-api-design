@@ -1,10 +1,10 @@
-## Create Merchant
+## Create Business
 
-Submits a new partner enabled merchant for KYC approval 
+Submits a new partner enabled business for KYC approval
 
 ### URL
 
-  /partner/create-merchant
+  /partner/create-business
 
 ### Method
 

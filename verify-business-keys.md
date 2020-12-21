@@ -1,13 +1,13 @@
 
-## Verify a Merchants Access Keys
+## Verify a Business Access Keys
 
-Verifies the validity of an onboarded merchant's access keys.
+Verifies the validity of an onboarded business's access keys.
 This is useful if you need to ensure they are copying/pasting them correctly from
 their QuickaPay dashboard
 
 ### URL
 
-  `/partner/check-merchant`
+  `/partner/check-business`
 
 ### Method
 
