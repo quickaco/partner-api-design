@@ -59,7 +59,7 @@ None
 
   * Code: 200 OK
 
-    `{ "partner_reference" : "$string", "status" : "queued" }`
+    `{ "partner_reference" : "$string", "request_id" : "00000000-0000-0000-0000-000000000000", "status" : "queued" }`
 
 ### Error Response
 
