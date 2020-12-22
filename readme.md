@@ -1,11 +1,11 @@
-# QuickaPay Partner API Design
+# QuickaPay Partner API Design [DRAFT]
 
 All API endpoints are relative to the API Base URL (BASE_URL) which is currently:
 `https://my.quicka.co/v1/`
 
 ## Security
 
-You will be provided a partner key that _must_ be used for all partner originated requests:
+You will be provided a partner key that _must_ be used for all partner originated requests i.e.
 
 `curl -H 'Accept: application/json' -H "Authorization: Bearer ${PARTNER_TOKEN}" "$BASEURL/{endpoint}"`
 

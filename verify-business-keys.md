@@ -44,4 +44,9 @@ their QuickaPay dashboard
 
   * Code: 401 UNAUTHORIZED
   
-    `{ "error" : "You are unauthorized to make this request." }`
+    `{ "error" : "You are not authorised for this request." }`
+
+
+  * Code: 403 Forbidden
+  
+    `{ "error" : "You do not have permission to make this request." }`

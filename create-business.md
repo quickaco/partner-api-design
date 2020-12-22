@@ -67,7 +67,7 @@ You may trigger other 4XX/5XX error codes when supplying malformed data.
 
   * Code: 401 UNAUTHORIZED
   
-    `{ "error" : "You are unauthorized to make this request." }`
+    `{ "error" : "You are not authorized to make this request." }`
 
   * Code: 409 CONFLICT
   
