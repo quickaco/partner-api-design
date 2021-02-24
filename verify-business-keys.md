@@ -54,7 +54,7 @@ curl --location --request POST 'https://my.quicka.co/v1/partner/check-business' 
      The request was malformed
 
 
-```json
+```javascript
 {
   "type": "Bad Request",
   "message": "", // for example: Missing header: Authorization

@@ -16,7 +16,7 @@ None
 
 ### Data Payload
 
-```json
+```javascript
 {
   "partner_reference": "$string",
   "user": {
