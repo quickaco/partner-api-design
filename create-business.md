@@ -78,7 +78,7 @@ curl --location --request POST 'https://my.quicka.co/v1/partner/check-business' 
         "date_of_birth": "2021-02-24T22:36:51.458Z",
         "branch_code": "062202",
         "account_number": "10011011",
-        "id_docyment_type": "passport",
+        "id_document_type": "passport",
         "id_document_identifier": "123043493",
         "id_pdf": "aGVsbG8gd29ybGQ="
     },
