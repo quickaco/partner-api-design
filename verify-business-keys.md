@@ -22,31 +22,75 @@ their QuickaPay dashboard
 }
 ```
 
+### Example snippit
+
+```bash
+
+curl --location --request POST 'https://my.quicka.co/v1/partner/check-business' \
+--header 'Authorization: Bearer ${PARTNER_TOKEN}' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "business_id": "${BUSINESS_UUID}",
+    "access_key": "${BUSINESS_ACCESS_KEY}"
+}'
+
+
+```
+
 ### Success Response
 
   * Code: 200
 
-    `{ message: "ok" }`
+```json
+{
+  "message": "ok"
+}
+```
 
 ### Error Response
 
   *  Code: 400 BAD REQUEST
 
      The request was malformed
-    
-     `{ "error" : "Bad Request" }`
+
+
+```json
+{
+  "type": "Bad Request",
+  "message": "", // for example: Missing header: Authorization
+  "Messages": [] // for example [ "business_id: Required" ]
+}
+```
+
 
   *  Code: 404 NOT FOUND
 
      The combination of access_key and business_id was not found
-    
-     `{ "error" : "No match found for provided credentials" }`
+
+```json
+{
+  "type": "Not Found",
+  "message": "No match found for provided credential",
+}
+```
 
   * Code: 401 UNAUTHORIZED
-  
-    `{ "error" : "You are not authorised for this request." }`
+
+```json
+{
+  "type": "Unauthorized",
+  "message": "You are not authorised for this request.",
+}
+```
 
 
   * Code: 403 Forbidden
-  
-    `{ "error" : "You do not have permission to make this request." }`
+
+
+```json
+{
+  "type": "Forbidden",
+  "message": "You do not have permission to make this request",
+}
+```
+

@@ -56,15 +56,32 @@ previously.
 
   *  Code: 404 NOT FOUND
 
-     `{ "error" : "User doesn't exist" }`
+```json
+{
+  "type": "Not Found",
+  "message": "User doesn't exist",
+}
+```
 
   OR
 
   * Code: 401 UNAUTHORIZED
-  
-    `{ "error" : "You are not authorised for this request." }`
+
+```json
+{
+  "type": "Unauthorized",
+  "message": "You are not authorised for this request.",
+}
+```
 
 
   * Code: 403 Forbidden
-  
-    `{ "error" : "You do not have permission to make this request." }`
+
+
+```json
+{
+  "type": "Forbidden",
+  "message": "You do not have permission to make this request",
+}
+```
+
